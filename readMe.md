@@ -4,9 +4,11 @@
 > 1. **Node JS 18.12.1 (includes npm)**
 > 2. **JDK 8**
 > 3. **Android Studio**
+
 ### Steps for Node JS Installation :
  
-- Install normally and **enable checkbox** of automatic get valueable extension during installation.
+ - Install normally and **enable checkbox** of automatic get valueable extension during installation.
+
 - After installation **start cmd** :
     
     > Type `node -v` if it shows an error install it again.
@@ -19,3 +21,13 @@
     type `choco install -y nodejs.install python2 jdk8` 
 
     > Install the React Native ```npm install -g react-native-cli```
+
+### Steps for Android Studio Installation :
+
+- Go to Offical [Android Studio Website](https://developer.android.com/studio/).
+
+- Download Android Studio, then Run it.
+
+- Don't need to click on Android Virtual Device if you have your own device for testing.
+
+- 
