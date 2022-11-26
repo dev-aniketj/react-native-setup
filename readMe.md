@@ -44,16 +44,16 @@
 
 ![image](https://user-images.githubusercontent.com/81229551/204074809-1afbd4c5-4971-4502-9aeb-6eb06eb97a7b.png)
 
-- The SDK Manager can also be found within the Android Studio "Preferences" dialog, under Appearance & Behavior → System Settings → Android SDK.
+- The SDK Manager can also be found within the Android Studio **"Preferences"** dialog, under ***Appearance & Behavior → System Settings → Android SDK***.
 
-- Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the Android 12 (S) entry, then make sure the following items are checked:
+- Select the **"SDK Platforms"** tab from within the SDK Manager, then check the box next to **"Show Package Details"** in the bottom right corner. Look for and expand the ***Android 12 (S)*** entry, then make sure the following items are checked:
 
   - ```Android SDK Platform 31```
   - ```Intel x86 Atom_64 System Image``` or ```Google APIs Intel x86 Atom System Image```
 
-- Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well. Look for and expand the Android SDK Build-Tools entry, then make sure that 31.0.0 is selected.
+- Next, select the **"SDK Tools"** tab and check the box next to **"Show Package Details"** here as well. Look for and expand the Android SDK Build-Tools entry, then make sure that ***31.0.0*** is selected.
 
-- Finally, click "Apply" to download and install the Android SDK and related build tools.
+- Finally, click **"Apply"** to download and install the Android SDK and related build tools.
 
 
 <br>
@@ -76,7 +76,7 @@
 
 #### Step 1: Start Metro
 
-- First, you will need to start Metro, the JavaScript bundler that ships with React Native. Metro "takes in an entry file and various options, and returns a single JavaScript file that includes all your code and its dependencies."—Metro Docs
+- First, you will need to start Metro, the JavaScript bundler that ships with React Native. Metro "takes in an entry file and various options, and returns a single JavaScript file that includes all your code and its dependencies."
 
 - To start Metro, run ```npx react-native start``` inside your React Native project folder.
 
