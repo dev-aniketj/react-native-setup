@@ -39,3 +39,14 @@
 - Set Android SDK path as My Computer > Properties > Advance system settings > Environment Variables > in System variables section. Click "New..." add **ANDROID_HOME** and Android SDK as bellow screen.
 
 ![image](https://user-images.githubusercontent.com/81229551/204074734-e2b5be29-dbc1-49e8-94f3-68c79f56f575.png)
+
+- Start Android Studio
+
+![image](https://user-images.githubusercontent.com/81229551/204074809-1afbd4c5-4971-4502-9aeb-6eb06eb97a7b.png)
+
+- The SDK Manager can also be found within the Android Studio "Preferences" dialog, under Appearance & Behavior → System Settings → Android SDK.
+
+Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the Android 12 (S) entry, then make sure the following items are checked:
+
+  - - Android SDK Platform 31
+  - Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
