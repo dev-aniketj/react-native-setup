@@ -46,7 +46,49 @@
 
 - The SDK Manager can also be found within the Android Studio "Preferences" dialog, under Appearance & Behavior → System Settings → Android SDK.
 
-Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the Android 12 (S) entry, then make sure the following items are checked:
+- Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the Android 12 (S) entry, then make sure the following items are checked:
 
-  - - Android SDK Platform 31
-  - Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+  - ```Android SDK Platform 31```
+  - ```Intel x86 Atom_64 System Image``` or ```Google APIs Intel x86 Atom System Image```
+
+- Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well. Look for and expand the Android SDK Build-Tools entry, then make sure that 31.0.0 is selected.
+
+- Finally, click "Apply" to download and install the Android SDK and related build tools.
+
+
+<br>
+
+---
+## Now SetUp is Complete.
+---
+
+> ## Note :
+> ### It is an optional part to check whether the setup is working fine or not.
+>
+
+### Creating a New Application(React Native) :
+
+- React Native has a built-in command line interface, which you can use to generate a new project. You can access it without installing anything globally using npx, which ships with Node.js. Let's create a new React Native project called "AwesomeProject":
+
+  - ```npx react-native init AwesomeProject```
+
+### Running your React Native application :
+
+#### Step 1: Start Metro
+
+- First, you will need to start Metro, the JavaScript bundler that ships with React Native. Metro "takes in an entry file and various options, and returns a single JavaScript file that includes all your code and its dependencies."—Metro Docs
+
+- To start Metro, run ```npx react-native start``` inside your React Native project folder.
+
+#### Step 2: Start your application
+
+- Let Metro Bundler run in its own terminal. Open a new terminal inside your React Native project folder. Run the following:
+
+  - ```npx react-native run-android```
+
+#### Modifying your app
+
+- Now that you have successfully run the app, let's modify it.
+
+  - Open App.js in your text editor of choice and edit some lines.
+  - Press the R key twice or select Reload from the Developer Menu (Ctrl + M) to see your changes!
