@@ -44,7 +44,7 @@
 
 ![image](https://user-images.githubusercontent.com/81229551/204074809-1afbd4c5-4971-4502-9aeb-6eb06eb97a7b.png)
 
-- The SDK Manager can also be found within the Android Studio **"Preferences"** dialog, under ***Appearance & Behavior → System Settings → Android SDK***.
+- The SDK Manager can also be found within the Android Studio **"More Actions → SDK Manager"** dialog, under ***Appearance & Behavior → System Settings → Android SDK***.
 
 - Select the **"SDK Platforms"** tab from within the SDK Manager, then check the box next to **"Show Package Details"** in the bottom right corner. Look for and expand the ***Android 12 (S)*** entry, then make sure the following items are checked:
 
