@@ -30,4 +30,4 @@
 
 - Don't need to click on Android Virtual Device if you have your own device for testing.
 
-- 
+![image](https://user-images.githubusercontent.com/81229551/204074544-a8b79bcb-b6c1-4448-8fed-e6ab28ab4400.png)
