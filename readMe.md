@@ -37,3 +37,5 @@
 - Visit [How to set path in Java](https://www.javatpoint.com/how-to-set-path-in-java) to set JDK path.
 
 - Set Android SDK path as My Computer > Properties > Advance system settings > Environment Variables > in System variables section. Click "New..." add **ANDROID_HOME** and Android SDK as bellow screen.
+
+![image](https://user-images.githubusercontent.com/81229551/204074734-e2b5be29-dbc1-49e8-94f3-68c79f56f575.png)
